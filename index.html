@@ -31,14 +31,6 @@
         <p>自己紹介</p>
       </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>スキル1</li>
-          <li>スキル2</li>
-        </ul>
-      </section>
-
       <section id="projects">
         <h2>Projects</h2>
         <article>
@@ -58,11 +50,15 @@
           />
           <label>
             メールアドレス
-            <input type="email" name="メールアドレス" />
+            <input class="email-input" type="email" name="メールアドレス" />
           </label>
           <label>
             お問い合わせ内容
-            <textarea name="お問い合わせ内容"></textarea>
+            <textarea
+              name="お問い合わせ内容"
+              class="message-input"
+              autocomplete="off"
+            ></textarea>
           </label>
           <!-- your other form fields go here -->
           <button type="submit">送信</button>
