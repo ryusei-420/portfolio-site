@@ -12,36 +12,145 @@
       <nav>
         <a href="#">Logo</a>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#skills"></a></li>
+          <li><a href="#projects">制作実績</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section id="hero">
-        <h1>市川</h1>
-        <p>肩書き</p>
-      </section>
-
       <section id="about">
-        <h2>About</h2>
-        <p>自己紹介</p>
+        <h1>市川龍世</h1>
+        <p>はじめまして、りゅうせいです。</p>
+        <p>
+          現在はトラックドライバーとして働きながら、Webコーダーへの転職を目指して学習を続けています。
+        </p>
+        <p>HTML,CSS,JavaScriptを中心に学習しており、レスポンシブ対応や</p>
+        <p>アニメーション実装を取り入れたWebサイト制作に取り組んでいます。</p>
+        <p>
+          このポートフォリオでは、学習過程で制作したサイトや成果物を紹介していきます。
+        </p>
+        <p>
+          今後も継続して制作と学習を重ね、より使いやすく魅力的なWebサイトを作れるよう
+        </p>
+        <p>取り組んでいきます。</p>
+        <a href="https://github.com/ryusei-420">GitHub</a>
       </section>
 
       <section id="projects">
-        <h2>Projects</h2>
-        <article>
-          <h3>プロジェクト名</h3>
-          <p>説明</p>
-          <a href="#">リンク</a>
-        </article>
+        <h2>制作実績</h2>
+        <p class="section-lead">
+          これまでに制作したサイトの一部をご紹介します。
+        </p>
+        <div class="project-list">
+          <article class="project-card">
+            <a
+              href="https://protfolio-lp.vercel.app"
+              class="project-card__image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/cafe-lp.svg"
+                alt="カフェLPデモサイトのプレビュー"
+                class="project-card__image"
+              />
+            </a>
+            <div class="project-card__body">
+              <h3>カフェLP（デモサイト）</h3>
+              <p class="project-card__category">飲食店向け 1ページサイト</p>
+              <p class="project-card__description">
+                カフェ・飲食店を想定したランディングページです。メニュー紹介、店舗情報、来店導線を1ページにまとめ、スマホでも見やすい構成にしています。
+              </p>
+              <ul class="project-card__tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>レスポンシブ対応</li>
+              </ul>
+              <ul class="project-card__highlights">
+                <li>メニュー・店舗情報・問い合わせ導線を配置</li>
+                <li>ホバーアニメーションを実装</li>
+              </ul>
+              <div class="project-card__links">
+                <a
+                  href="https://protfolio-lp.vercel.app"
+                  class="project-card__btn project-card__btn--primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  サイトを見る
+                </a>
+                <a
+                  href="https://github.com/ryusei-420"
+                  class="project-card__btn project-card__btn--secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a
+              href="salon-lp/index.html"
+              class="project-card__image-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="images/salon-lp.svg"
+                alt="美容室LPデモサイトのプレビュー"
+                class="project-card__image"
+              />
+            </a>
+            <div class="project-card__body">
+              <h3>美容室LP（デモサイト）</h3>
+              <p class="project-card__category">サロン・店舗向け 1ページサイト</p>
+              <p class="project-card__description">
+                美容室を想定したランディングページです。コンセプト、メニュー・料金表、アクセス、予約導線を整理し、落ち着いたトーンで信頼感のある見せ方にしています。
+              </p>
+              <ul class="project-card__tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>レスポンシブ対応</li>
+              </ul>
+              <ul class="project-card__highlights">
+                <li>料金表・営業時間・アクセス情報を配置</li>
+                <li>予約・問い合わせへの導線を設計</li>
+              </ul>
+              <div class="project-card__links">
+                <a
+                  href="salon-lp/index.html"
+                  class="project-card__btn project-card__btn--primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  サイトを見る
+                </a>
+                <a
+                  href="https://github.com/ryusei-420"
+                  class="project-card__btn project-card__btn--secondary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <p class="projects-cta">
+          <a href="#contact">ご依頼・ご相談はこちら →</a>
+        </p>
       </section>
 
       <section id="contact">
-        <h2>Contact</h2>
+        <h2>お問い合わせ</h2>
         <form action="https://formspree.io/f/mredygeg" method="POST">
           <input
             type="hidden"
@@ -50,7 +159,12 @@
           />
           <label>
             メールアドレス
-            <input class="email-input" type="email" name="メールアドレス" />
+            <input
+              class="email-input"
+              type="email"
+              name="メールアドレス"
+              autocomplete="off"
+            />
           </label>
           <label>
             お問い合わせ内容
@@ -60,9 +174,9 @@
               autocomplete="off"
             ></textarea>
           </label>
-          <!-- your other form fields go here -->
           <button type="submit">送信</button>
         </form>
+        <p id="error" hidden></p>
       </section>
     </main>
 
