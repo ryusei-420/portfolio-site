@@ -36,7 +36,7 @@
         <article>
           <h3>プロジェクト名</h3>
           <p>説明</p>
-          <a href="#">リンク</a>
+          <a>リンク</a>
         </article>
       </section>
 
@@ -50,7 +50,12 @@
           />
           <label>
             メールアドレス
-            <input class="email-input" type="email" name="メールアドレス" />
+            <input
+              class="email-input"
+              type="email"
+              name="メールアドレス"
+              autocomplete="off"
+            />
           </label>
           <label>
             お問い合わせ内容
@@ -60,7 +65,6 @@
               autocomplete="off"
             ></textarea>
           </label>
-          <!-- your other form fields go here -->
           <button type="submit">送信</button>
         </form>
       </section>
