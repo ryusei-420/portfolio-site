@@ -71,6 +71,7 @@ header nav {
 
 header nav ul {
   display: flex;
+  flex-wrap:nowrap;
   gap: 1rem;
 }
 
@@ -145,11 +146,6 @@ footer {
   gap: 2rem;
 }
 
-@media (min-width: 700px) {
-  .project-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
 
 .project-card {
   overflow: hidden;
@@ -348,4 +344,17 @@ footer {
   margin-top: 1rem;
   color: #c0392b;
   font-size: 0.9rem;
+}
+
+@media ( max-width: 768px) {
+
+  header nav {
+    padding: 0 1rem;
+  }
+  
+  header nav ul {
+    width:100%;
+    justify-content: space-evenly;
+    gap: 0;
+  }
 }
