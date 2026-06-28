@@ -127,6 +127,12 @@ footer {
   transform: translateY(-2px);
 }
 
+#about p {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
 #projects {
   text-align: center;
 }
