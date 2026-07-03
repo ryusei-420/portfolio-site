@@ -133,6 +133,10 @@ footer {
   justify-content:center;
 }
 
+.about-group-end {
+  margin-bottom: 1.5rem;
+}
+
 #projects {
   text-align: center;
 }
