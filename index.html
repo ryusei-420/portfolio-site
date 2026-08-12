@@ -12,7 +12,7 @@
       <nav>
         <a>ICHIKAWA</a>
         <ul>
-          <li><a href="#projects">制作実績</a></li>
+          <li><a href="#projects">制作実例</a></li>
           <li><a href="#contact">お問い合わせ</a></li>
         </ul>
       </nav>
@@ -48,24 +48,19 @@
       </section>
 
       <section id="projects">
-        <h2>制作実績</h2>
+        <h2>制作実例</h2>
         <p class="section-lead">
           これまでに制作したサイトの一部をご紹介します。
         </p>
         <div class="project-list">
           <article class="project-card">
-            <a
-              href="https://attendance-app-lyart-kappa.vercel.app"
-              class="project-card__image-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="images/attendance-app-dashboard.png"
-                alt="勤怠管理webアプリのプレビュー"
-                class="project-card__image"
-              />
-            </a>
+            <div class="project-card__gallery project-card__gallery--featured">
+              <img src="images/attendance-app-dashboard.png" alt="勤怠管理Webアプリ ダッシュボード" class="project-card__image project-card__image--hero" />
+              <div class="project-card__subgallery">
+                <img src="images/attendance-app-login.png" alt="勤怠管理Webアプリ ログイン画面" class="project-card__image project-card__image--sub" />
+                <img src="images/attendance-records.png" alt="勤怠管理Webアプリ ユーザー管理画面" class="project-card__image project-card__image--sub" />
+              </div>
+            </div>
             <div class="project-card__body">
               <h3>勤怠管理アプリ</h3>
               <p class="project-card__category">勤怠記録Webアプリ</p>
@@ -104,76 +99,34 @@
             </div>
           </article>
           <article class="project-card">
-            <a
-              href="https://protfolio-lp.vercel.app"
-              class="project-card__image-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="images/cafe-lp-responsive-design.png"
-                alt="カフェLPデモサイトのプレビュー"
-                class="project-card__image"
-              />
-            </a>
-            <div class="project-card__body">
-              <h3>カフェLP（デモサイト）</h3>
-              <p class="project-card__category">飲食店向け 1ページサイト</p>
-              <p class="project-card__description">
-                カフェ・飲食店を想定したランディングページです。メニュー紹介、店舗情報、来店導線を1ページにまとめ、スマホでも見やすい構成にしています。
-              </p>
-              <ul class="project-card__tags">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>レスポンシブ対応</li>
-              </ul>
-              <ul class="project-card__highlights">
-                <li>メニュー・店舗情報・問い合わせ導線を配置</li>
-                <li>ホバーアニメーションを実装</li>
-              </ul>
-              <div class="project-card__links">
-                <a
-                  href="https://protfolio-lp.vercel.app"
-                  class="project-card__btn project-card__btn--primary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  サイトを見る
-                </a>
-                <a
-                  href="https://github.com/ryusei-420"
-                  class="project-card__btn project-card__btn--secondary"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub
-                </a>
+            <div class="project-card__gallery project-card__gallery--realestate">
+              <img src="images/real-estate-top.png" alt="不動産サイト トップページ" class="project-card__image project-card__image--hero" />
+              <div class="project-card__subgallery">
+                <img src="images/real-estate-property.png" alt="物件詳細ページ" class="project-card__image project-card__image--sub" />
+                <img src="images/real-estate-admin.png" alt="WordPress管理画面" class="project-card__image project-card__image--sub" />
               </div>
             </div>
-          </article>
-          <article class="project-card">
-              <img
-                src="images/apparel-lp-image.png"
-                alt="カフェLPデモサイトのプレビュー"
-                class="project-card__image"
-              />
-            </a>
             <div class="project-card__body">
-              <h3>アパレルブランドLP（デモサイト）</h3>
-              <p class="project-card__category">ブランド向け 1ページサイト</p>
+              <h3>不動産会社向けWordPressテーマ</h3>
+              <p class="project-card__category">WordPress オリジナルテーマ</p>
               <p class="project-card__description">
-                アパレルブランドを想定したランディングページです。Instagram連携、コラム, 問い合わせ、アクセス、会社概要、を1ページにまとめ、スマホでも見やすい構成にしています。
+                不動産会社を想定して制作したオリジナルWordPressテーマです。物件情報を管理画面から登録・編集でき、カスタム投稿タイプとAdvanced Custom Fieldsを利用して更新しやすい構成にしています。お問い合わせフォームや管理画面のカスタマイズも実装しました。
               </p>
               <ul class="project-card__tags">
-                <li>ペライチ</li>
-                <li>レスポンシブ対応</li>
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>Advanced Custom Fields</li>
+                <li>Contact Form 7</li>
               </ul>
               <ul class="project-card__highlights">
-                <li>ノーコード</li>
-                <li>コラム</li>
-                <li>Instagram連携</li>
+                <li>カスタム投稿タイプで物件管理</li>
+                <li>ACFによる物件情報入力</li>
+                <li>管理画面・ログイン画面をカスタマイズ</li>
               </ul>
+              <div class="project-card__links">
+                <a href="#" class="project-card__btn project-card__btn--primary">デモ準備中</a>
+                <a href="https://github.com/ryusei-420" class="project-card__btn project-card__btn--secondary" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
             </div>
           </article>
         </div>

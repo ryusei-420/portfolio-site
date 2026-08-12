@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Portfolio Dashboard</h1>
+
+<form id="project-form">
+  <input id="project-name" type="text" placeholder="作品名" required>
+  <input id="project-url" type="url" placeholder="デモURL" required>
+  <input id="github-url" type="url" placeholder="GitHub URL">
+  <textarea id="project-description" placeholder="作品説明"></textarea>
+  <button type="submit">保存</button>
+</form>
+
+<hr>
+
+<h2>作品一覧</h2>
+<div id="projects-list"></div>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>
