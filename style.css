@@ -127,6 +127,30 @@ footer {
   transform: translateY(-2px);
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.social-links a {
+  display: inline-block;
+  padding: 0.65rem 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  background: rgba(79, 70, 229, 0.08);
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
 #about p {
   display:flex;
   align-items: center;
